@@ -1,10 +1,10 @@
 // void main() {
 //  List<String> pertanyaan = [
-//    "tekstur tanah remah ?",
-//    "jenis tanah humus ?",
-//    "Tekstur tanah butiran ?",
-//    "Jenis Tanah Kapur ?",
-//    "tekstur Gumpal ?",
-//    "jenis tanah liat ?"
+//    "tekstur remah di sekitaran pohon ?",
+//    "tanah hitam berair ?",
+//    "Tekstur butiran kasar ?",
+//    "Tanah berKapur dan kering ?",
+//    "tekstur Gumpal pasir ?",
+//    "tanah liat basah ?"
 //  ],
 // }b
