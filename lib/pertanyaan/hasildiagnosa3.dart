@@ -92,7 +92,7 @@ class _hasilDiagnosa3WidgetState extends State<hasilDiagnosa3Widget> {
                     child: Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
                       child: Text(
-                        'Berdasarkan kriteria tanah\nTanah tidak subur dalam artian tidak banyak tanaman dapat di tanam hanya beberapa jenis saja',
+                        'Berdasarkan kriteria tanah\nTanah tidak subur dalam artian tidak banyak tanaman dapat di tanam hanya beberapa jenis saja dan walaupun di lakukan pemupukan tetap hanya beberapa tanaman saja yang dapat bertahan di karakteristik tanah ini',
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontFamily: 'Poppins',
@@ -120,7 +120,7 @@ class _hasilDiagnosa3WidgetState extends State<hasilDiagnosa3Widget> {
                       color: Color(0xFFF1E1A8),
                       borderRadius: BorderRadius.circular(15),
                     ),
-                    child: Text("Terima Kasih",
+                    child: Text("Terima Kasih telah menggunakan aplikasi kami <3",
                     textAlign: TextAlign.center,
                       style: TextStyle(
                           fontFamily: 'Poppins',
