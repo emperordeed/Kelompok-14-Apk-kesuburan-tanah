@@ -17,12 +17,12 @@ class DiagnosaWidgetState extends State<DiagnosaWidget> {
   final scaffoldKey = GlobalKey<ScaffoldState>();
 
   List<String> pertanyaan = [
-    "tekstur tanah remah ?",
-    "jenis tanah humus ?",
-    "Tekstur tanah butiran ?",
-    "Jenis Tanah Kapur ?",
-    "tekstur Gumpal ?",
-    "jenis tanah liat ?",
+    "tekstur remah di sekitaran pohon ?",
+    "tanah hitam berair ?",
+    "Tekstur butiran kasar ?",
+    "Tanah berKapur dan kering ?",
+    "tekstur Gumpal pasir ?",
+    "tanah liat basah ?",
   ];
 
   bool _value1 = false;
@@ -172,7 +172,7 @@ class DiagnosaWidgetState extends State<DiagnosaWidget> {
                           ),
                         ),
                         Text(
-                          'Jawab Setiap Pertanyaan Yang Ada. kuti dan jawab pertanyaan untuk mengetahui hasl Diagnosa Anda',
+                          'Jawab Pertanyaan sesuai kriteria tanah Anda. Anda hanya perlu mencentang kriteria tanah yang ingin di ketahui subur atau tidak',
                           textAlign: TextAlign.center,
                           style: TextStyle(
                             fontFamily: 'Poppins',
@@ -515,7 +515,7 @@ class DiagnosaWidgetState extends State<DiagnosaWidget> {
   }
 
   navigatorto() {
-    if (result[0] == 1 && result[1] == 1 && result[3] == 1 && result[5] == 1) {
+   if (result[0] == 1 && result[1] ==  1 && result[5] == 1) {
       Navigator.push(
         context,
         MaterialPageRoute(
@@ -524,7 +524,7 @@ class DiagnosaWidgetState extends State<DiagnosaWidget> {
           },
         ),
       );
-    } else if (result[1] == 1 && result[4] == 1 && result[5] == 1) {
+    } else if (result[2] == 1 && result[4] == 1 && result[5] == 1) {
       Navigator.push(
         context,
         MaterialPageRoute(
