@@ -92,7 +92,7 @@ class _hasilDiagnosa3WidgetState extends State<hasilDiagnosa3Widget> {
                     child: Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
                       child: Text(
-                        'Berdasarkan kriteria tanah\nTanah tidak subur dalam artian tidak banyak tanaman dapat di tanam hanya beberapa jenis saja dan walaupun di lakukan pemupukan tetap hanya beberapa tanaman saja yang dapat bertahan di karakteristik tanah ini',
+                        'Berdasarkan kriteria tanah\nTanah tidak subur dalam artian tidak banyak tanaman dapat di tanam hanya beberapa jenis saja dan walaupun di lakukan pemupukan tetap hanya beberapa tanaman saja yang dapat bertahan di karakteristik tanah ini seperti tanaman jati,palawija,dan jambu mete',
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontFamily: 'Poppins',
