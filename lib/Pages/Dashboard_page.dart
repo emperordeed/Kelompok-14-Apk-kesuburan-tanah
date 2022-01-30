@@ -1,4 +1,6 @@
-import 'package:auto_size_text/auto_size_text.dart';
+// import 'dart:html';
+
+// import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 
 import '../Dashboard.dart';
@@ -11,91 +13,106 @@ class DashboardPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-       title: Text('Dashboard'),
+        title: Text('Dashboard'),
       ),
       drawer: Drawer(
-       child: Column(
-         children: [
-           Container(
-             padding: EdgeInsets.all(20),
-             width: double.infinity,
-             height: 150,
-             color: Colors. lightGreen,
-             alignment: Alignment.bottomLeft,
-             child: Text(
-               'Pilihan Menu',
-               style: TextStyle(
-                 color: Colors. white,
-                 fontSize: 24,
-               ),
-             )
-           ),
-           SizedBox(height: 10,
-           ),
-           ListTile(
-             onTap: () {
-               Navigator.of(context).pushReplacement(
-                 MaterialPageRoute(builder: (context) => DashboardPage(),
-                 ),
-               );
-             },
-             leading: Icon(Icons.home, 
-             size: 40,),
-             title: Text(
-             'Dashboard',
-             style: TextStyle(
-                 fontSize: 24,
-               ),),
-           ),
-           ListTile(
-             onTap: () {
-               Navigator.of(context).pushReplacement(
-                 MaterialPageRoute(builder: (context) => DiagnosaPage(),
-                 ),
-               );
-             },
-             leading: Icon(Icons.search, 
-             size: 40,),
-             title: Text(
-             'Diagnosa',
-             style: TextStyle(
-                 fontSize: 24,
-               ),),
-           ),
-           ListTile(
-              onTap: () {
-               Navigator.of(context).pushReplacement(
-                 MaterialPageRoute(builder: (context) => DaftarTanahPage(),
-                 ),
-               );
-             },
-             leading: Icon(Icons.folder, 
-             size: 40,),
-             title: Text(
-             'Daftar Tanah',
-             style: TextStyle(
-                 fontSize: 24,
-               ),),
-           ),
-           ListTile(
-              onTap: () {
-               Navigator.of(context).pushReplacement(
-                 MaterialPageRoute(builder: (context) => AboutPage(),
-                 ),
-               );
-             },
-             leading: Icon(Icons.person, 
-             size: 40,),
-             title: Text(
-             'About',
-             style: TextStyle(
-                 fontSize: 24,
-               ),),
-           ),
-         ],
-       )
-     ),
-     body: DashboardWidget(),
-   );
+          child: Column(
+        children: [
+          Container(
+              padding: EdgeInsets.all(20),
+              width: double.infinity,
+              height: 150,
+              color: Colors.lightGreen,
+              alignment: Alignment.bottomLeft,
+              child: Text(
+                'Pilihan Menu',
+                style: TextStyle(
+                  color: Colors.white,
+                  fontSize: 24,
+                ),
+              )),
+          SizedBox(
+            height: 10,
+          ),
+          ListTile(
+            onTap: () {
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(
+                  builder: (context) => DashboardPage(),
+                ),
+              );
+            },
+            leading: Icon(
+              Icons.home,
+              size: 40,
+            ),
+            title: Text(
+              'Dashboard',
+              style: TextStyle(
+                fontSize: 24,
+              ),
+            ),
+          ),
+          ListTile(
+            onTap: () {
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(
+                  builder: (context) => DiagnosaPage(),
+                ),
+              );
+            },
+            leading: Icon(
+              Icons.search,
+              size: 40,
+            ),
+            title: Text(
+              'Diagnosa',
+              style: TextStyle(
+                fontSize: 24,
+              ),
+            ),
+          ),
+          ListTile(
+            onTap: () {
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(
+                  builder: (context) => DaftarTanahPage(),
+                ),
+              );
+            },
+            leading: Icon(
+              Icons.folder,
+              size: 40,
+            ),
+            title: Text(
+              'Daftar Tanah',
+              style: TextStyle(
+                fontSize: 24,
+              ),
+            ),
+          ),
+          ListTile(
+            onTap: () {
+              Navigator.of(context).pushReplacement(
+                MaterialPageRoute(
+                  builder: (context) => AboutPage(),
+                ),
+              );
+            },
+            leading: Icon(
+              Icons.person,
+              size: 40,
+            ),
+            title: Text(
+              'About',
+              style: TextStyle(
+                fontSize: 24,
+              ),
+            ),
+          ),
+        ],
+      )),
+      body: DashboardWidget(),
+    );
   }
 }
