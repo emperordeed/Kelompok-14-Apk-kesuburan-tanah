@@ -92,7 +92,7 @@ class _hasilDiagnosa2WidgetState extends State<hasilDiagnosa2Widget> {
                     child: Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
                       child: Text(
-                        'Berdasarkan kriteria tanah\nyang dimasukkan,\n\nUnsur kesuburan tanah,\n Tanah subur bisa untuk di tanami tanaman tetapi unsur hara yang di kandung tidak melimpah dan di perlukan pemupukan untuk menjaga unsur haranya',
+                        'Berdasarkan kriteria tanah\nyang dimasukkan,\n\nUnsur kesuburan tanah,\n Tanah subur bisa untuk di tanami tanaman seperti tanaman hias maupun budidaya tetapi unsur hara yang di kandung tidak melimpah dan di perlukan pemupukan untuk menjaga unsur haranya',
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontFamily: 'Poppins',
