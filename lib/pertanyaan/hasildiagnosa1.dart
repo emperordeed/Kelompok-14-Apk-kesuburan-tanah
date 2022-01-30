@@ -91,7 +91,7 @@ class _hasilDiagnosa1WidgetState extends State<hasilDiagnosa1Widget> {
                     child: Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(10, 10, 10, 10),
                       child: Text(
-                        'Berdasarkan kriteria tanah\nyang dimasukkan,\n\nUnsur kesuburan tanah,\nyang dimasukkan,\n\nUnsur kesuburan tanah,\n Tanah Sangat subur untuk di tanami berbagai tanaman dan mengandung unsur hawa yang masih bagus',
+                        'Berdasarkan kriteria tanah\nyang dimasukkan,\n\nUnsur kesuburan tanah,\nyang dimasukkan,\n\nUnsur kesuburan tanah,\n Tanah Sangat subur untuk di tanami berbagai tanaman seperti tanaman hias,budidaya,dan tanaman jangka panjang. Tanah ini mengandung unsur hawa yang masih bagus',
                         textAlign: TextAlign.center,
                         style: TextStyle(
                           fontFamily: 'Poppins',
@@ -119,8 +119,7 @@ class _hasilDiagnosa1WidgetState extends State<hasilDiagnosa1Widget> {
                       color: Color(0xFF7D5B1E),
                       borderRadius: BorderRadius.circular(15),
                     ),
-                    child: Text(
-                      "Terima Kasih telah menggunakan aplikasi kami <3",
+                    child: Text("Terima Kasih telah menggunakan aplikasi kami <3",
                       textAlign: TextAlign.center,
                       style: TextStyle(
                           fontFamily: 'Poppins',
