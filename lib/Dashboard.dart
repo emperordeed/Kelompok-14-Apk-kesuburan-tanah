@@ -1,4 +1,4 @@
-import 'package:auto_size_text/auto_size_text.dart';
+// import 'package:auto_size_text/auto_size_text.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
 
@@ -44,7 +44,7 @@ class _DashboardWidgetState extends State<DashboardWidget> {
                     ),
                     child: Padding(
                       padding: EdgeInsetsDirectional.fromSTEB(0, 30, 0, 0),
-                      child: AutoSizeText(
+                      child: Text(
                         'Selamat Datang',
                         textAlign: TextAlign.center,
                         style: TextStyle(
