@@ -103,7 +103,7 @@ class DiagnosaWidgetState extends State<DiagnosaWidget> {
 
   void onChanged6(bool value) {
     setState(() {
-      this._value5 = value;
+      this._value6 = value;
     });
     if (value) {
       result[5] = 1;
@@ -515,7 +515,7 @@ class DiagnosaWidgetState extends State<DiagnosaWidget> {
   }
 
   navigatorto() {
-   if (result[0] == 1 && result[1] ==  1 && result[5] == 1) {
+    if (result[0] == 1 && result[1] ==  1 && result[5] == 1) {
       Navigator.push(
         context,
         MaterialPageRoute(
